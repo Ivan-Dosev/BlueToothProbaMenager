@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC229EDE259D973700CA5BD7 /* BlueToothProbaMenagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC229EDD259D973700CA5BD7 /* BlueToothProbaMenagerApp.swift */; };
+		CC229EE0259D973700CA5BD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC229EDF259D973700CA5BD7 /* ContentView.swift */; };
+		CC229EE2259D973900CA5BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC229EE1259D973900CA5BD7 /* Assets.xcassets */; };
+		CC229EE5259D973900CA5BD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC229EE4259D973900CA5BD7 /* Preview Assets.xcassets */; };
+		CC229EF0259D973A00CA5BD7 /* BlueToothProbaMenagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC229EEF259D973A00CA5BD7 /* BlueToothProbaMenagerTests.swift */; };
+		CC229EFB259D973A00CA5BD7 /* BlueToothProbaMenagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC229EFA259D973A00CA5BD7 /* BlueToothProbaMenagerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC229EEC259D973900CA5BD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC229ED2259D973700CA5BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC229ED9259D973700CA5BD7;
+			remoteInfo = BlueToothProbaMenager;
+		};
+		CC229EF7259D973A00CA5BD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC229ED2259D973700CA5BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC229ED9259D973700CA5BD7;
+			remoteInfo = BlueToothProbaMenager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC229EDA259D973700CA5BD7 /* BlueToothProbaMenager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueToothProbaMenager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC229EDD259D973700CA5BD7 /* BlueToothProbaMenagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueToothProbaMenagerApp.swift; sourceTree = "<group>"; };
+		CC229EDF259D973700CA5BD7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC229EE1259D973900CA5BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC229EE4259D973900CA5BD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC229EE6259D973900CA5BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC229EEB259D973900CA5BD7 /* BlueToothProbaMenagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueToothProbaMenagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC229EEF259D973A00CA5BD7 /* BlueToothProbaMenagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueToothProbaMenagerTests.swift; sourceTree = "<group>"; };
+		CC229EF1259D973A00CA5BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC229EF6259D973A00CA5BD7 /* BlueToothProbaMenagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueToothProbaMenagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC229EFA259D973A00CA5BD7 /* BlueToothProbaMenagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueToothProbaMenagerUITests.swift; sourceTree = "<group>"; };
+		CC229EFC259D973A00CA5BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC229ED7259D973700CA5BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC229EE8259D973900CA5BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC229EF3259D973A00CA5BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC229ED1259D973700CA5BD7 = {
+			isa = PBXGroup;
+			children = (
+				CC229EDC259D973700CA5BD7 /* BlueToothProbaMenager */,
+				CC229EEE259D973A00CA5BD7 /* BlueToothProbaMenagerTests */,
+				CC229EF9259D973A00CA5BD7 /* BlueToothProbaMenagerUITests */,
+				CC229EDB259D973700CA5BD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC229EDB259D973700CA5BD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC229EDA259D973700CA5BD7 /* BlueToothProbaMenager.app */,
+				CC229EEB259D973900CA5BD7 /* BlueToothProbaMenagerTests.xctest */,
+				CC229EF6259D973A00CA5BD7 /* BlueToothProbaMenagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC229EDC259D973700CA5BD7 /* BlueToothProbaMenager */ = {
+			isa = PBXGroup;
+			children = (
+				CC229EDD259D973700CA5BD7 /* BlueToothProbaMenagerApp.swift */,
+				CC229EDF259D973700CA5BD7 /* ContentView.swift */,
+				CC229EE1259D973900CA5BD7 /* Assets.xcassets */,
+				CC229EE6259D973900CA5BD7 /* Info.plist */,
+				CC229EE3259D973900CA5BD7 /* Preview Content */,
+			);
+			path = BlueToothProbaMenager;
+			sourceTree = "<group>";
+		};
+		CC229EE3259D973900CA5BD7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC229EE4259D973900CA5BD7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC229EEE259D973A00CA5BD7 /* BlueToothProbaMenagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC229EEF259D973A00CA5BD7 /* BlueToothProbaMenagerTests.swift */,
+				CC229EF1259D973A00CA5BD7 /* Info.plist */,
+			);
+			path = BlueToothProbaMenagerTests;
+			sourceTree = "<group>";
+		};
+		CC229EF9259D973A00CA5BD7 /* BlueToothProbaMenagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC229EFA259D973A00CA5BD7 /* BlueToothProbaMenagerUITests.swift */,
+				CC229EFC259D973A00CA5BD7 /* Info.plist */,
+			);
+			path = BlueToothProbaMenagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC229ED9259D973700CA5BD7 /* BlueToothProbaMenager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC229EFF259D973A00CA5BD7 /* Build configuration list for PBXNativeTarget "BlueToothProbaMenager" */;
+			buildPhases = (
+				CC229ED6259D973700CA5BD7 /* Sources */,
+				CC229ED7259D973700CA5BD7 /* Frameworks */,
+				CC229ED8259D973700CA5BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueToothProbaMenager;
+			productName = BlueToothProbaMenager;
+			productReference = CC229EDA259D973700CA5BD7 /* BlueToothProbaMenager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC229EEA259D973900CA5BD7 /* BlueToothProbaMenagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC229F02259D973A00CA5BD7 /* Build configuration list for PBXNativeTarget "BlueToothProbaMenagerTests" */;
+			buildPhases = (
+				CC229EE7259D973900CA5BD7 /* Sources */,
+				CC229EE8259D973900CA5BD7 /* Frameworks */,
+				CC229EE9259D973900CA5BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC229EED259D973900CA5BD7 /* PBXTargetDependency */,
+			);
+			name = BlueToothProbaMenagerTests;
+			productName = BlueToothProbaMenagerTests;
+			productReference = CC229EEB259D973900CA5BD7 /* BlueToothProbaMenagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC229EF5259D973A00CA5BD7 /* BlueToothProbaMenagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC229F05259D973A00CA5BD7 /* Build configuration list for PBXNativeTarget "BlueToothProbaMenagerUITests" */;
+			buildPhases = (
+				CC229EF2259D973A00CA5BD7 /* Sources */,
+				CC229EF3259D973A00CA5BD7 /* Frameworks */,
+				CC229EF4259D973A00CA5BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC229EF8259D973A00CA5BD7 /* PBXTargetDependency */,
+			);
+			name = BlueToothProbaMenagerUITests;
+			productName = BlueToothProbaMenagerUITests;
+			productReference = CC229EF6259D973A00CA5BD7 /* BlueToothProbaMenagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC229ED2259D973700CA5BD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CC229ED9259D973700CA5BD7 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					CC229EEA259D973900CA5BD7 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = CC229ED9259D973700CA5BD7;
+					};
+					CC229EF5259D973A00CA5BD7 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = CC229ED9259D973700CA5BD7;
+					};
+				};
+			};
+			buildConfigurationList = CC229ED5259D973700CA5BD7 /* Build configuration list for PBXProject "BlueToothProbaMenager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC229ED1259D973700CA5BD7;
+			productRefGroup = CC229EDB259D973700CA5BD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC229ED9259D973700CA5BD7 /* BlueToothProbaMenager */,
+				CC229EEA259D973900CA5BD7 /* BlueToothProbaMenagerTests */,
+				CC229EF5259D973A00CA5BD7 /* BlueToothProbaMenagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC229ED8259D973700CA5BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC229EE5259D973900CA5BD7 /* Preview Assets.xcassets in Resources */,
+				CC229EE2259D973900CA5BD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC229EE9259D973900CA5BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC229EF4259D973A00CA5BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC229ED6259D973700CA5BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC229EE0259D973700CA5BD7 /* ContentView.swift in Sources */,
+				CC229EDE259D973700CA5BD7 /* BlueToothProbaMenagerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC229EE7259D973900CA5BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC229EF0259D973A00CA5BD7 /* BlueToothProbaMenagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC229EF2259D973A00CA5BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC229EFB259D973A00CA5BD7 /* BlueToothProbaMenagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC229EED259D973900CA5BD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC229ED9259D973700CA5BD7 /* BlueToothProbaMenager */;
+			targetProxy = CC229EEC259D973900CA5BD7 /* PBXContainerItemProxy */;
+		};
+		CC229EF8259D973A00CA5BD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC229ED9259D973700CA5BD7 /* BlueToothProbaMenager */;
+			targetProxy = CC229EF7259D973A00CA5BD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC229EFD259D973A00CA5BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC229EFE259D973A00CA5BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC229F00259D973A00CA5BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BlueToothProbaMenager/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FYTR3E5Q9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BlueToothProbaMenager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivandosev.BlueToothProbaMenager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC229F01259D973A00CA5BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BlueToothProbaMenager/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FYTR3E5Q9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BlueToothProbaMenager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivandosev.BlueToothProbaMenager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC229F03259D973A00CA5BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FYTR3E5Q9;
+				INFOPLIST_FILE = BlueToothProbaMenagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivandosev.BlueToothProbaMenagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueToothProbaMenager.app/BlueToothProbaMenager";
+			};
+			name = Debug;
+		};
+		CC229F04259D973A00CA5BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FYTR3E5Q9;
+				INFOPLIST_FILE = BlueToothProbaMenagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivandosev.BlueToothProbaMenagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueToothProbaMenager.app/BlueToothProbaMenager";
+			};
+			name = Release;
+		};
+		CC229F06259D973A00CA5BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FYTR3E5Q9;
+				INFOPLIST_FILE = BlueToothProbaMenagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivandosev.BlueToothProbaMenagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlueToothProbaMenager;
+			};
+			name = Debug;
+		};
+		CC229F07259D973A00CA5BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FYTR3E5Q9;
+				INFOPLIST_FILE = BlueToothProbaMenagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivandosev.BlueToothProbaMenagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlueToothProbaMenager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC229ED5259D973700CA5BD7 /* Build configuration list for PBXProject "BlueToothProbaMenager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC229EFD259D973A00CA5BD7 /* Debug */,
+				CC229EFE259D973A00CA5BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC229EFF259D973A00CA5BD7 /* Build configuration list for PBXNativeTarget "BlueToothProbaMenager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC229F00259D973A00CA5BD7 /* Debug */,
+				CC229F01259D973A00CA5BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC229F02259D973A00CA5BD7 /* Build configuration list for PBXNativeTarget "BlueToothProbaMenagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC229F03259D973A00CA5BD7 /* Debug */,
+				CC229F04259D973A00CA5BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC229F05259D973A00CA5BD7 /* Build configuration list for PBXNativeTarget "BlueToothProbaMenagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC229F06259D973A00CA5BD7 /* Debug */,
+				CC229F07259D973A00CA5BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC229ED2259D973700CA5BD7 /* Project object */;
+}
