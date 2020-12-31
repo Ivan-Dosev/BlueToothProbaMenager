@@ -13,6 +13,9 @@
 		CC229EE5259D973900CA5BD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC229EE4259D973900CA5BD7 /* Preview Assets.xcassets */; };
 		CC229EF0259D973A00CA5BD7 /* BlueToothProbaMenagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC229EEF259D973A00CA5BD7 /* BlueToothProbaMenagerTests.swift */; };
 		CC229EFB259D973A00CA5BD7 /* BlueToothProbaMenagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC229EFA259D973A00CA5BD7 /* BlueToothProbaMenagerUITests.swift */; };
+		CC229F0D259D976900CA5BD7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC229F0C259D976900CA5BD7 /* Model.swift */; };
+		CC229F15259D97FD00CA5BD7 /* HRMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC229F14259D97FD00CA5BD7 /* HRMManager.swift */; };
+		CC229F22259D9D9600CA5BD7 /* MenagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC229F21259D9D9600CA5BD7 /* MenagerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		CC229EF6259D973A00CA5BD7 /* BlueToothProbaMenagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueToothProbaMenagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC229EFA259D973A00CA5BD7 /* BlueToothProbaMenagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueToothProbaMenagerUITests.swift; sourceTree = "<group>"; };
 		CC229EFC259D973A00CA5BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC229F0C259D976900CA5BD7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CC229F14259D97FD00CA5BD7 /* HRMManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRMManager.swift; sourceTree = "<group>"; };
+		CC229F21259D9D9600CA5BD7 /* MenagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenagerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 			children = (
 				CC229EDD259D973700CA5BD7 /* BlueToothProbaMenagerApp.swift */,
 				CC229EDF259D973700CA5BD7 /* ContentView.swift */,
+				CC229F0B259D974D00CA5BD7 /* Manager */,
 				CC229EE1259D973900CA5BD7 /* Assets.xcassets */,
 				CC229EE6259D973900CA5BD7 /* Info.plist */,
 				CC229EE3259D973900CA5BD7 /* Preview Content */,
@@ -128,6 +135,16 @@
 				CC229EFC259D973A00CA5BD7 /* Info.plist */,
 			);
 			path = BlueToothProbaMenagerUITests;
+			sourceTree = "<group>";
+		};
+		CC229F0B259D974D00CA5BD7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CC229F0C259D976900CA5BD7 /* Model.swift */,
+				CC229F14259D97FD00CA5BD7 /* HRMManager.swift */,
+				CC229F21259D9D9600CA5BD7 /* MenagerView.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC229F22259D9D9600CA5BD7 /* MenagerView.swift in Sources */,
+				CC229F0D259D976900CA5BD7 /* Model.swift in Sources */,
+				CC229F15259D97FD00CA5BD7 /* HRMManager.swift in Sources */,
 				CC229EE0259D973700CA5BD7 /* ContentView.swift in Sources */,
 				CC229EDE259D973700CA5BD7 /* BlueToothProbaMenagerApp.swift in Sources */,
 			);
